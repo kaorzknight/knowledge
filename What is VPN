@@ -147,20 +147,121 @@ Can I use a VPN for Torrenting?
     Torrenting is a common name for a specific protocal used to transfer data and files over the web, but not the actual types of files. Although it gets a lot of bad press overall, it is perfectly okay and legal if you're transferring files that you have the rights to. Privacy, onthe other hand, is completely illegal regardless of the tools that you use to do it.
     
     Then there's the VPN's own policy regarding torrenting and how it's handled. Most of the quality VPN solutions in the market will allow torrenting.
+    According to our rersearch, you can torrent with : ExpressVPN, VyprVPN, PIA, and NordVPN.
     
+    When it comes to the security aspect of torrenting, it all comes down to the VPN's policies regarding things like logging or sharing your user data.
+    In general, if a VPN doesn't keep logs overall they also don't keep them for your torrent activity.
+    
+    Another aspect worth considering when choosing a VPN for torrenting is the download speeds that the service can offer. Of course, this sort of informations can be hard to come by; most of the time you only find out after you buy the VPN. We did some testing of our own and based on it, we can recommend these VPNs for their good download speeds: ExpressVPN, VyprVPN, PIA and Buffered.
+    
+Can I Use a VPN to Watch Netflix and Hulu?
+
+    Yes. But like with most things on this list, it all comes down to the specific VPN that you use.
+    
+    The problem with Netflix overall is that even though it's now available in over 130 countries, not all shows are distributed equally.
+    
+    Due to complicated licensing agreements that were established before Netflix's big international rollout, various TV stations retain the rights to even some of Netflix's own shows. which effectively prevents Netflix from legally making those shows available on their platform.
+    
+    Complicated legal stuff, but VPNs can help here.
+    
+    The way Netflix and Hulu block some of their content in parts of the globe is based on location filters. Meaning that if you're in a country that's banned, you're banned.
+    
+    VPNs make this easy to fix. Since you can select the server that you want to connect with, all you need to do to unlock certain Netflix shows is connect to a server in a country where that show is available. That's all. 
+
+Does a VPN Work on Android and iOS?
+
+    Again, that's a yes.
+    
+    Many of the top VPN services out there also let you download mobile apps for either Andorid or iOS.
+    
+    Here are our best VPNs for Android: PIA, TunnelbearVPN, ExpressVPN
+    
+    Both platforms let you set up a VPN connection rather easily. For instance, on iPhone, you can do that in Settings -> General -> VPN.
+    
+    With all that being said, be careful if you’re tempted by any of the free VPN apps for either Android or iOS. There’s research by a team of specialists (from CSIRO’s Data61, the University of New South Wales, the International Computer Science Institute and the University of California Berkeley), going through more than 280 free Android apps that use Android VPN permissions. The research reveals that 38% of those apps include malware, 84% leak users’ traffic and 75% use tracking libraries. So there’s that.
             
+Does a VPN Work on Kodi/SmartTV?
+
+    Your smart TVs and Kodi boxes are yet more things that require a live internet hookup to provide you with their goodies. And with that, a VPN can help you keep those streams private so that only you and the service itself know what you're watching.
+    
+    There are two ways in which you can enable a VPN connection on your smart TV:
+    
+        - configure it on the device itself
+        - configure it right on your router - effectively protect your whole home   
+            network and everything that's connected to it (we will cover this in the next section below)
             
+    Let’s focus on the former here. In overall, many of the quality VPNs come with the ability to configure them right on your smart TV. For example, VyprVPN — which is one of our recommended VPNs — comes with an app for Android TV, and also with detailed instructions for Kodi/OpenELEC and Apple TV. Other VPNs in the market provide you with similar options.
+
+    Some of the networks that support smart TV devices and boxes: ExpressVPN, VyprVPN, NordVPN.
             
-            
+How Do I Install a VPN on My Router?
+
+    installing a VPN on your home router is the best way to make sure everything that's connected to that router is put through a safe VPN connection. In that scenario, you no longer need to install individual apps on your mobile devices, laptops, smart TVs or anything else with web access.
+    
+    First, make sure that your router is compatible with VPNs. This can be done on the website of the manufacturer that produced the router. Often, most DD-WRT and Tomato-boosted FlashRouters are compatible with VPNs.
         
+    The specific steps involved in setting things up differ from service to service. Your specific provider likely has a dedicated section on their website devoted to explaining how to carry through with the process    
         
+    Installation is simple and involves you logging in to your router and then filling out a couple of standard forms — nothing you won’t be able to handle. 
+    
+VPN & Tor* - How to Use Them Together
+
+    Even though Tor and VPN are fundamentally different, they can still be used together for maximum security and online privacy.
+    
+        - Tor gives you the ability to access the web routing your connection 
+            through a number of random nodes, while also encrypting that connections at every stage.
+        - VPN  gives you access to one server at a time.
         
+    The nature of it is a bit different in principle, and therefore we can't say things like "Tor or VPN is better than the other." 
+    
+    One of the good things about Tor is that you can use it 100% free and there are no built-in limitations to that free version. All you need to do is grab the official Tor web browser. Once you have it, you just need to fire it up like your standard Chrome or Firefox browser, click the connect button, and you're up and running.
+    
+    How to combine your VPN and Tor:
+    
+        - Enable your VPN connection normally. From this point on, everthing that involves communicating with the web goes through your VPNs
+        - Open your Tor browser and connect with Tor.
         
+    At this stage, you have the VPN connection and the Tor web browser running at the same time. The main downside with such a setup is that it's going to be much slower than your standard, VPN-only connection. Tor on its own slows down your experience noticeably, and when combined with a VPN, the results can be more dramatic. On the plus side, it gives you super privacy, which is a huge plus.
+    
+IP Leaks and Kill Switched
+
+    Kill Switch
         
+        A kill switch is a feature that automatically kills your internet access if the encrypted, safe connection should ever drop. If there's any connectivity issue at all, the kill switch will trgger and block all activity until the secure connection returns.
         
+        If your VPN doesn't have a kill switch and a connectivity issue arises, it's probable your device might attempt to restore the standard, unprotected connection, thus exposing what you've been doing up until that point.
         
+    IP leaks
+    
+        IP leaks are a known vulnerability with some setups people use to access the web. It's not entirely a VPN problem at its core.
         
+        IP leaks can happen when your VPN fails to hide your actual IP as you're browsing the web. For example, you want to access a geo-restricted show on Netflix, so you change the server to an approved country and reload the page. Then you realize that the content is still blocked. This means that your real IP might have just been leaked.
         
+        The best VPNs all have some clever scripts programmed into their apps to minimize this risk. As I mentionedm your IP leaking is not always the VPN's fault. Sometimes the configuration of your computer and the many apps within are to blame. Even the browser you use and the add-ons in it can cause IP leaks.
+        
+When to Use a VPN
+
+    There are a number of good reasons to use a VPN:
+    
+        - It encrypts your activity on the website.
+        - It hides your activity from anyone who might be interested in it.
+        - It hides your location, enabling you to access geo-blocked content (e.g. 
+            on Netflix and other sites).
+        - Makes you more anonymous on the website
+        - Helps you keep the connection protected when using a public WiFi 
+            hotspot.
+        
+    Overall, use a VPN if your web privacy, security, and anonymity are important to you. Roughly $3-5 a month is a small price to pay for all of that.
+        
+When Not to Use a VPN
+
+    As predictable as this may sound, we really see no good reason not to use a VPN if you're taking your online security and privacy seriously.
+    
+    VPNs are incredibly useful as another layer of security on top of SSL protocols on websites, having a good antivirus program, not downloading shady software, not sharing too much private information on social meida, and so on.
+    
+    Overall, they’re your next step towards using the web more consciously and with sufficient precautions set up.
+
+    There are not many downsides to them. Perhaps the only one being that your connection can sometimes slow down. After all, you’re routing your data through an extra server.    
         
                 
         
@@ -187,8 +288,17 @@ Can I use a VPN for Torrenting?
     * De Facto Standard คือซอฟแวร์หรือฮาร์ดแวร์ ที่ถือกันว่าเป็นมาตรฐานเป็นที่รู้กันเอง ยอมรับกันเอง โดยไม่มีประกาศอย่างเป็นทางการ เช่น ในวงการคอมพิวเจอร์ยอมรับกันว่า คอมพิวเตอร์ IBM เป็น คอมพิวเตอร์มาตรฐาน คอมพิวเตอร์ยี่ห้ออื่นๆ จึงทำให้สามารถใช้ร่วมกับคอมพิวเตอร์ IBM ได้ จึงเรียกคอมพิวเตอร์เหล่านั้นว่า IBM clone หรือ IBM compatible
     ส่วน De jure standards คือ มาตรฐานที่ไม่มีการระบุว่าคนใดคนหนึ่งถูกต้อง แต่เกิดจากการเชื่อมร่วมกันจนเป็นสาธารณะ ตัวอย่างเช่น TCP/IP องค์กรที่ดูแลมาตรฐาน ISO, International Telecommunication Union (ITU), Institute of Electrical and Electronic Engineers (IEEE), และอื่นๆ
         
-        
+    * Tor (The Onion Router) คือบริการที่สร้างเพื่อให้ผู้คนสามารถท่องอินเทอร์เน็ตได้โดยไม่เปิดเผยตัวตน Tor เป็นระบบแบบกระจายศูนย์ (decentralized) ซึ่งผู้ใช้จะต้องทำการเชื่อมต่อกับเครือข่ายของเครื่องตัวกลางอื่นๆก่อน
+    (เมื่อเปรียบเทียบกับการเชื่อมต่อถึงเว็บไซต์โดยตรง เมื่อทำการเชื่อมต่อโดยทั่วไป) โดยวิธีดังกล่าวนั้นจะช่วยซ่อนไอพีแอดเดรสของคุณจากเว็บไซต์ที่คุณเข้าชม เนื่องจากคุณใช้วิธีการเชื่อมต่อผ่านเซิร์ฟเวอร์ต่างๆ แบบสุ่ม ก่อนที่จะเชื่อมต่อถึงเว็บไซต์เป้าหมาย ทำให้เว็บไซต์ดังกล่าวไม่สามารถตามรอยคุณได้
+    ข้อด้อย:
+    ถึงข้อมูลของคุณจะถูกเข้ารหัสในขณะที่ส่งผ่านเครื่องตัวกลาง การเชื่อมต่อจุดท้ายสุดของเครื่องตัวกลางเครื่องสุดท้ายนั้นสามารถถูกเจาะได้หากเว็บไซต์ที่เรียกไม่ได้ใช้การเชื่อมต่อแบบ SSL Tor ยังมีข้อเสียที่เป็นที่ทราบกันว่าทำให้การเข้าชมเว็บไซต์ช้าลงอย่างมาก เนื่องจากจะต้องทำการโอนถ่ายข้อมูลผ่านตัวกลางจำนวนมาก นอกจากนั้น หากคุณมีความกังวลเกี่ยวกับการสอดแนมข้อมูลของรัฐบาล Tor นั้นถูกสร้างขึ้นด้วยความร่วมมือของนาวิกโยธินสหรัฐ (U.S. Navy) และถูกใช้งานโดยหน่วยงานรัฐบาลมากมาย และเนื่องจาก Tor นั้นถูกใช้โดยฝั่งตรงข้ามทางการเมือง, ผู้สื่อข่าว หรือแม้กระทั่งอาชญากร รัฐบาลจึงได้จับตาผู้ใช้ Tor เป็นพิเศษ ซึ่งนี่อาจจะทำให้คุณถูกสงสัยว่าเป็นผู้ใช้ประเภทอาชญากร และทำการตรวจเฝ้าทุกกิจกรรมออนไลน์ของคุณ 
     
+    VPN คือ เครือข่ายจำลองส่วนตัว (Virtual Private Network - VPN) คือการเชื่อมต่อเครือข่ายซึ่งช่วยให้คุณทำการเชื่อมต่อแบบปลอดภัยสู่ตำแหน่งอื่นๆ บนโลก ซึ่งทำให้บุคคลภายนอกมองเห็นว่าคุณทำการเชื่อมต่อจากตำแหน่งดังกล่าวนั้น คอมพิวเตอร์ของคุณจะทำการสร้างท่อจำลองที่เข้ารหัสไว้สำหรับเชื่อมต่อกับเซิร์ฟเวอร์ VPN และการเข้าเว็บทั้งหมดของคุณจะดูเหมือนว่าถูกเรียกใช้งานโดยเซิร์ฟเวอร์ VPN นั้น ข้อมูลทั้งหมดของคุณจะถูกลำเลียงผ่านท่อที่เข้ารหัสนี้ ซึ่งซ่อนไม่ให้ข้อมูลของคุณถูกดักฟังโดยผู้ไม่ประสงค์ดีในระหว่างที่ถูกลำเลียงจากคอมพิวเตอร์ของคุณสู่เซิร์ฟเวอร์ VPN
+    ข้อด้อย:
+    ดังนั้น การเลือกผู้ให้บริการ VPN คุณภาพสูงซึ่งไม่เก็บข้อมูลหรือประวัติการใช้งานของคุณจึงเป็นสิ่งที่จำเป็นมาก เนื่องจากในกรณีที่หน่วยงานรัฐบาลสั่งให้ผู้ให้บริการ VPN เปิดเผยข้อมูลประวัติการใช้งาน ผู้ใช้ก็จะถูกเปิดเผยตัวตน นอกจากนั้น ผู้ให้บริการ VPN ดังกล่าวก็ควรจะมีระบบการกระจายการทำงาน (load balancing) ที่ดี และมีการสุ่มเซิร์ฟเวอร์ ซึ่งจะทำให้ผู้ใช้ทำการเชื่อมต่อกับเซิร์ฟเวอร์ VPN ที่ไม่ซ้ำกันทุกครั้งที่ทำการเชื่อมต่อ
+    PIA ไม่เก็บข้อมูลประวัติการใช้งานของคุณ ข้อมูลของคุณจึงปลอดภัยเสมอ
     
-    
+    Proxy พร็อกซี่จะทำการลำเลียงข้อมูลของคุณผ่านคอมพิวเตอร์เครื่องอื่นเช่นเดียวกับ VPN โดยถึงแม้พร็อกซี่เซิร์ฟเวอร์นั้นจะมีทั้งแบบสาธารณะและส่วนตัว มีแต่พร็อกซี่เซิร์ฟเวอร์แบบส่วนตัวเท่านั้นซึ่งเสถียร และไว้ใจได้ (และส่วนใหญ่จะเป็นแบบเสียเงิน)
+    ข้อด้อย:
+    พร็อกซี่โปรโตคอลหลักๆที่ใช้ในปัจจุบันนี้คือ SOCKS และ HTTP/HTTPS โดยพร็อกซี่แบบ SOCKS และ HTTP นั้นไม่มีการเข้ารหัสใดๆ ในขณะที่พร็อกซี่แบบ HTTPS นั้นทำการเข้ารหัสในระดับเดียวกับเว็บไซต์ SSL อย่างไรก็ตาม พร็อกซี่นั้นไม่ได้ถูกออกแบบมาเพื่อปกป้องข้อมูลอินเตอร์เน็ตทั้งหมดของคุณ โดยส่วนมากจะปกป้องแค่เบราเซอร์ของคุณเท่านัน นอกจากนั้น พร็อกซี่มากมายยังส่งไอพีแอดเดรสให้กับเว็บไซต์ปลายทางอีกด้วย อีกทั้งการตั้งค่าพร็อกซี่นั้นยังจะต้องทำแยกกันสำหรับทุกแอพพลิเคชั่น (อีเมล, เบราเซอร์, แอพอื่นๆ) และบางแอพพลิเคชั่นอาจจะไม่รับรองพร็อกซี่
     
