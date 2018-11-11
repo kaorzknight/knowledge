@@ -43,16 +43,125 @@ How does a VPN work?
                     
             - L2TP/IPsec (Layer 2 Tunneling Protocol). 
             
-                This is a combination of PPTP and Cisco's L2F protocol. The concept of this protocol is sound - it uses keys to establish a secure connection on each end of your data tunnel - but the execution isn't very safe. The addition of the IPsec protocol improves security a bit, but there are 'reports of NSA's alleged ability' to break this protocol and see what's being transmitted. No matter if those are actually true, the fact that there's a debate at all is perhaps enough to AVOID THIS AS WELL
+                This is a combination of PPTP and Cisco's L2F protocol. The concept of this protocol is sound - it uses keys to establish a secure connection on each end of your data tunnel - but the execution isn't very safe. The addition of the IPsec protocol improves security a bit, but there are 'reports of NSA's alleged ability' to break this protocol and see what's being transmitted. No matter if those are actually true, the fact that there's a debate at all is perhaps enough to ** AVOID THIS AS WELL **
                 
             - SSTP (Secure Socket Tunneling Protocol). 
             
                 This is another Microsoft-built protocol. The connection is established with some SSL/TNS encryption (the de facto* standard for web encryption these days). SSL's and TLS's strength is built on symmetric-key cryptography; a setup in which only the two parties involved in the transfer can decode data within. 
                 ** OVER ALL, SSTP IS A VERY SECURE SOLUTION ** 
+            
+            - IKEv2 (Internet Key Exchange, Version 2)
+            
+                This is yet another Microsoft-build protocol. It's an iteration of Microsoft's previous protocols and a much more secure one at that.
+                ** IT PROVIDES YOU WITH SOME OF THE BEST SECURITY **
                 
+            - OpenVPN 
+                
+                This takes what's best in the above protocols and does away with most of the flaws. It's based on SSL/TLS and it's an open source project, which means that it's constantly being improved by hundreds of developers. It secures the connection by using keys that are known only by the two participating parties on either end of the transmission. Overall, ** IT'S THE MOST VERSATILE AND SECURE PROTOCOL OUT THERE **  
             
                 
+        Generally speaking, most VPNs allow you to select the protocol you use. 
+        THE MORE SECURE PROTOCOL YOU CONNECT THROUGH (OpenVPN, IKEv2), THE MORE SECURE YOUR WHOLE SESSION WILL BE
+        
+        Unfortunately, not all devices will allow you to use all these protocols. Since most of them built by Microsoft, you'll able to use them on all Windows PCs. For Apple devices, you will come across some limitations. For example, L2TP/IPsec is the default protocol for iPhone. And Android ...well, Android has some problems of its own, which we'll get to later on.
+        
+Encryption Basics
+    
+    In brief, encryption works by:
+        
+        1 Starting with plain data
+        2. Applying a key (seret code) to transform the data
+        3. Ending with encrypted data
+            
+    The encrypted data is only readable by someone with the original key used to encrypt the data
+        
+    Modern encryption algorithms work on this principle, with the second step being very complex and worhty of doctoral-level research. What you need to look is your data being encrypted with the AES algorithm of at least 128 bits. Many of the top VPNs out there go a step above that and offer AES-256 encryption, including ExpressVPN, NordVPN, and Buffered. ** see more about AES encrytion ** 
+            
+Legal Constraints and Company Vision
+
+    All good VPN companies will do everything they can to protect your data, your privacy, and your overall security on the web. Keep in mind that they're still subject to the law in the jurisdiction they're in, which can affect their service.
+    
+    Depending on the local law of the country where the VPN was established, the company may be forced by court order to share whatever records they have regarding your activity - and there can be international agreements between countries to share information in these cases. If you do enough research, you may find VPN established in a country that doesn't have such agreements in place with your country.
+    
+    So in the end, you are only secure with a VPN if it's not only willing and technically capable of keeping your information safe and private, but also if it's legally allowed to do it. Let's lackle this topic a bit more and focus on answering the general question :
+    
+        Is it Legal to Use a VPN?
+        
+            In a word,yes. But not always.
+            
+            First off,VPN as a concept is somewhat new in "legal years", so not all jurisdictions have managed to keep up. This means that the ruls are murky and can be interpreted in many ways.
+            
+            In overall, VPNs seem to be okay to use in most countries, especially in the US, Canada, the UK, the rest of Western Europe. (Important! What matters here is your physical location when using the VPN.)
+            
+            Generally, VPNs are often not okay in China, Iraq, United Arab Emirates, Belarus, Oman, Russia, Iran, North Korea and Turkmenistan.
+            
+        Does a VPN Make Me Fully Anonymous Online?
+        
+            In a word, no. But the extent to which it does is still impressive.
+            
+            Without a VPN, your connection is fully open, and your ISP, the  cafe WIFI router, any server along the way, or a person with the right tools can look at your data. Using a VPN solves many of those problems by encrypting your transmission and making it appear as if it's the server itself that's making the connection and not you.
+            
+            Investigate the following to help determine the extent of your anonymity.
+            
+                - Does the service keep logs?
+                - The jurisdiction under which the VPN is established. In some 
+                    cases, they might be legally forcecd to keep records. What happpens when a government comes asking questions?
+                - Does the service keep payment records? Do those records include 
+                    identifying information?
+                - Is there sufficient encryption and a secure connection protocol?
                 
+            Not every VPN will protect you the same. If you make your choice wisely, you can address the concerns described above.
+            
+VPN Logging Policies
+
+    The logs a VPN keeps significantly affects the level of anonymity and privacy you have with their service. The logs a provider may keep include :
+    
+        - user activity 
+        - IP addresses
+        - connection/disconnection timestaps
+        - devices used
+        - payment logs
+            
+    Any such logs make you a tiny bit less anonymous since your IP can be connected to a given browsing session that you had. Of course, tying to you personally is very difficult but still kind of doable if some agency is deliberate enough.
+    
+    Overall, the fewer logs your provider keeps the better, with "no logs" the ideal.
+    
+    BE CAREFUL. Many services state you have privacy on their sales material, but you need to look at their privacy policy to see their fine print an dwhat data they actually keep, or they will state that their country does not require data retention yet they do not state their own data retention policy.
+    
+    Free VPN versus Paid VPN
+    
+        Running a good VPN service costs serious money - robust servers, data transfer, infrastructure, employee, and so on. If the service is offered for free, consider what compromises may have been made. Are they logging activity for their own resons? Are they displaying their own ads? Is your data being sold to a third party?
+        
+        Paying for a VPN isn't a huge investment. We've tested some great solutions for as little as $3-5 per month, which doesn't seem a lot in exchange for peace of mind and improved online privacy.
+        
+    How Much Does a VPN Cost?
+    
+        The average out of 31 popular VPNs is $5.59 a month, which tells you a lot about what sort of an expense this usually is. VPNs that cost more than $10 are uncommon, and there's not a lot reason to buy them since there are more affordable solutions out there.
+        
+        Most services give out big discounts if you're willing to subscibe for one or two years up front, instead of renewing your subsciption monthly. For example, Private Internet Access - a VPN that we very much enjoy - costs $6.95 if paid monthly, but $39.95 when paid annually (which translates to $3.33 per month - that's over 50% off).
+        
+Can I use a VPN for Torrenting?
+
+    In general, yes, but that depends on the sspecific service you're using and also the kind of things that you are torrenting.
+    
+    Torrenting is a common name for a specific protocal used to transfer data and files over the web, but not the actual types of files. Although it gets a lot of bad press overall, it is perfectly okay and legal if you're transferring files that you have the rights to. Privacy, onthe other hand, is completely illegal regardless of the tools that you use to do it.
+    
+    Then there's the VPN's own policy regarding torrenting and how it's handled. Most of the quality VPN solutions in the market will allow torrenting.
+    
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
                 
         
         
