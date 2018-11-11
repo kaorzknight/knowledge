@@ -41,6 +41,7 @@ Deleting Text
     
     Ctrl+T Swap the last two character before the cursor with each other. You can   
             use this to quickly fix typos when you type two characters in the wrong order.
+            
     Ctrl+_ Undo your last key press. You can repeat this to undo multiple times.
     
 Capitalizing Characters 
@@ -51,9 +52,26 @@ Capitalizing Characters
     Alt+L Uncapitalize every character from the cursor to the end of the nt word,
             converting the characters to lower case.
             
+    Alt+C Capitalize the character under the cursor. Your cursor will move to the       
+            end of the current word.
+    
+Working with your command history
+
+    Ctrl+P or Up Arrow Go to the previoous command in the command history. Press    
+                        the shortcut multiple times to walk back through the history.
+    
+    Ctrl+N or Down Arrow Go to the next command in the command history. Press the       
+                        shortcut multiple times to walk forward through the history.
+    
+    Alt+R Revert any changes to a command you have pulled from your history if you 
+            have edited it.
     
     
-    
+
+
+
+
+
     
     
     
