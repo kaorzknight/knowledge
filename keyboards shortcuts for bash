@@ -33,4 +33,12 @@ Moving the cursor
     Ctrl+F Go right (forward) one character
     
     Ctrl+XX Move between the beginning of the line and the current position of the      
-            cursor
+        cursor. This allow you to press Ctrl+XX to return to the start of the line, change something, and then press Ctrl+XX to go back to your original position. To use this shortcut, hold the Ctrl key and tap the X key twice.
+        
+Deleting Text 
+
+    Ctrl+D Delete the character under the cursor
+    
+    
+    
+    
