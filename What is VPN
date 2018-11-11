@@ -7,3 +7,34 @@ How does a VPN work?
 
     You start the VPN client (software) from your VPN service. This software encrypts your data, even before your Internet Service Provider or the coffee shop WIFI provider sees it. The data then goes to the VPN, and fron the VPN server to your online destination - anything from your bank website to a video sharing website to a search engine. The online destination sees your data as coming from the VPN server and its location, and not from your computer and your location. 
     
+    The internet is a collection of servers responsible for storing websites and serving them to anyone who wants to view them.Those servers talk with each other all the time, including sharing your data with each other to ultimately let you browse a page. Great for you to be able to surf, but not great for privacy.
+    
+    Going online is like taking a commercial airline flight. The ticket agent, buggage handlers, security personnel, and flight attendants all need pieces of data to get you routed between cities. A similar of information happens on the web.
+    
+    If it is a fun website that you are looking at then no need to worry. It doesn't matter if someone sees your data. But if it's online banking, buisiness email, or anything else that's a bit more sensitive - it is a different story.
+    
+    When you use a VPN service, your data is encrypted (because you are using their app) goes in encrypted form to your ISP(Internet Service Provider) then to VPN server. The VPN server is the third party that connects to the web on your behalf. This solves the privacy and security problem for us in a couple of ways:
+    
+        - The destination site sees the VPN server as the traffic origin, not you.
+        - No one can (easily) identify you or your computer as the source of the        
+            data ,nor what you're doing (what website you're visiting, what data you're transferring, etc.)
+        - Your data is encrypted, so even if someone does look at what you are 
+            sending, they only see encrypted enformation and not raw data.
+            
+    How secure is a VPN
+    
+        VPN security causes debate among IT pros and others in the industry, and no two serveices are identical in their offerings or security. There are two main factors :
+        
+            - The limitations of the type of VPN technology used by a provider.
+            - Legal and policy limitations affecting what can be done with that 
+                technology. The laws of the company's own policies affect how the company implements this technology in their service.
+                
+    VPN protocols
+        
+        
+        
+        
+    
+    
+    
+    
