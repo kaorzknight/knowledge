@@ -30,8 +30,53 @@ How does a VPN work?
                 technology. The laws of the company's own policies affect how the company implements this technology in their service.
                 
     VPN protocols
+    
+        VPN protocols define how the service handles data transmission over a VPN. The most common protocols are PPTP, L2TP, SSTP, IKEV2 and OpenVPN. 
+        
+            - PPTP (Point-To-Point Tunneling Protocol). 
+                
+                This is one of the oldest protocols in use, originally designed by Microsoft.
+                    Pros: works on old computers, is a part of the Windows  
+                            operatig system, and it's easy to set up.
+                    Cons: by today's standards, it's barely secure.
+                            **AVOID A PROVIDER IF THIS IS THE ONLY PROTOCOL OFFERED**
+                    
+            - L2TP/IPsec (Layer 2 Tunneling Protocol). 
+            
+                This is a combination of PPTP and Cisco's L2F protocol. The concept of this protocol is sound - it uses keys to establish a secure connection on each end of your data tunnel - but the execution isn't very safe. The addition of the IPsec protocol improves security a bit, but there are 'reports of NSA's alleged ability' to break this protocol and see what's being transmitted. No matter if those are actually true, the fact that there's a debate at all is perhaps enough to AVOID THIS AS WELL
+                
+            - SSTP (Secure Socket Tunneling Protocol). 
+            
+                This is another Microsoft-built protocol. The connection is established with some SSL/TNS encryption (the de facto* standard for web encryption these days). SSL's and TLS's strength is built on symmetric-key cryptography; a setup in which only the two parties involved in the transfer can decode data within. 
+                ** OVER ALL, SSTP IS A VERY SECURE SOLUTION ** 
+                
+            
+                
+                
+                
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    * De Facto Standard คือซอฟแวร์หรือฮาร์ดแวร์ ที่ถือกันว่าเป็นมาตรฐานเป็นที่รู้กันเอง ยอมรับกันเอง โดยไม่มีประกาศอย่างเป็นทางการ เช่น ในวงการคอมพิวเจอร์ยอมรับกันว่า คอมพิวเตอร์ IBM เป็น คอมพิวเตอร์มาตรฐาน คอมพิวเตอร์ยี่ห้ออื่นๆ จึงทำให้สามารถใช้ร่วมกับคอมพิวเตอร์ IBM ได้ จึงเรียกคอมพิวเตอร์เหล่านั้นว่า IBM clone หรือ IBM compatible
+    ส่วน De jure standards คือ มาตรฐานที่ไม่มีการระบุว่าคนใดคนหนึ่งถูกต้อง แต่เกิดจากการเชื่อมร่วมกันจนเป็นสาธารณะ ตัวอย่างเช่น TCP/IP องค์กรที่ดูแลมาตรฐาน ISO, International Telecommunication Union (ITU), Institute of Electrical and Electronic Engineers (IEEE), และอื่นๆ
         
         
     
