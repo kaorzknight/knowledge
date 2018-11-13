@@ -1,0 +1,83 @@
+Scala
+
+Expressions 
+
+    Expression are computable statements.
+    
+        1+1
+        
+    You can output results of expressions using println
+    
+        println(1)              // 1
+        println(1 + 1)          // 2
+        println("Hello!")       // Hello!
+        println("Helllo, " + " World!") // Hello, World!
+        
+Values
+
+    You can name results of expressions with the val keyword.
+    
+        val x = 1+1
+        println(x)  // 2
+        
+    Named results, such as x here, are called values. Referencing a value does not re-compute it.
+    
+    Values cannot be re-assigned.
+    
+        x = 3 // This does not compile.
+        
+    Types of values can be inferred, but you can also explicity state the type, like this:
+    
+        val x: Int = 1 + 1
+        
+    Notice how the type declaration Int comes after the identifier x . You also need a : .
+    
+Variables
+
+    Variables are like values, except you can re-assign them. You can define a variable with the var keyword.
+    
+        var x = 1 + 1
+        x = 3 // This compile because "x" declared with the "var" keyword.
+        println(x * x) // 9
+        
+    As with values, you can explicity state the type if you want:
+    
+        var x: Int = 1 + 1
+        
+Blocks
+
+    You can combine expressions by surronding them with {}. We call this a block.
+    
+    The results of the last expression in the block is the result of the overall block, too.
+    
+        println({
+            val x = 1 + 1
+            x + 1
+        }) // 3
+        
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

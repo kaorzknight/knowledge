@@ -1,0 +1,88 @@
+ 
+    You may not know it (and once you do not know it, it may not bother you), but everytime you reach out to a website or connect with anyone online, your online connection gives your computer "address" to the site/person you're connecting with.
+    
+    Why? So that you the other end knows how to send information (a Web page, email, etc.) back to your computer... to you. That address is your public IP address. IP stands for Internet Protocol. 
+    
+    Without an IP address, you wouldn't be able to do any Internet/online activity and others online wouldn't able to reach you. It is how you connect to the world.
+    
+
+Where does your IP address come from?
+
+    You can thank your Internet Service Provider (AT&T, Comcast, Verizon, etc.) for your IP address at home, as well as for your Internet connection. Your smart device also uses an IP address when you're browsing the web or using an app.
+    
+    Most people are completely happy with how all of that works.
+    
+    But there are few realities about public IP addresses that does bother some people:
+        
+        - Your IP address idetifies where you are in the world, sometimes to the street level.
+        - It can be used by websites to block you from accessing their content.
+        - It ultimately ties your name and home address to your IP address, because someone is paying for an Internet 
+            connection at a specific location.
+            
+    But there are a few ways you can get around those realities, and one of them is to use a proxy service or proxy server (people simply say "proxy".)
+
+Proxy means "substitute".
+
+    A proxy lets you go online under a different IP address identity.
+    
+    You don't change your Internet provider; you simply go online and search "free proxy" or "list of proxies" and you will get several websites that provides lists of free proxies.
+    
+    It's really that simple to find proxies, just like you order shoes, movies and airline ticket online. However, It isn't simple to figure out how to use one without some guidance. 
+    
+How a proxy operates.
+
+    A proxy server is a computer on the web that redirects your web browsing activity. Here's what that means.
+    
+        - Nomally, when you type in a website name (Amazon.com or any other), your Internet Service Provider (ISP) makes 
+            the request for you and connects you with the destination - and reveals your real IP address, as mentioned before.
+        - When you use a proxy your online requests get rerouted.
+        - While using a proxy, your Internet request goes from your computer to your ISP as usual, but then gets sent to 
+            the proxy server, and then to the website/destination. Along the way, the proxy uses the IP address you choose in your setup, masking your real IP address.
+
+Why you might want to use a proxy.
+
+    Here why some people turn to using a proxy - and why you might be interested as well
+    
+        - A school or local libreary blocks access to certain websites and a student wants to get around that.
+        - You want to look at something online that intrerests you... but you prefer it couldn't be traced back to your 
+            IP address and your location.
+        - You're traveling abroad and the technology set up in the country you;re in prevents you from connecting to a 
+            website back home.
+        - Your employer blocks access to social media or ohter sites and you'd like to bypass those restrictions.
+        
+Why you might not want to use one.
+
+    You should keep in mind that your computer, your ISP and ohter networks might object to your using a proxy. Just because you can do it, doesn't mean you should. And in some cases, websites will blacklist IO address they suspect or know are from proxy.
+    
+Not all proxies are alike
+
+    Even though all proxies help you access websites you might not otherwise get to, not all proxies behave the same way. A proxy can fall into one of four categories:
+    
+        - Transparent proxy.    It tells websites that it is a proxy server and it will pass along your IP address              
+                                anyway
+        - Anonymous proxy.      It will identify itself as a proxy, but it won't pass your IP adress to the website.
+        - Distorting proxy.     It passes along an Incorrect IP address for you, while identifying itself as a proxy
+        - High Anonymity proxy. The proxy and your IP address stay a secret. The websites just sees a random IP address 
+                                connecting to it...that isn't yours
+    
+    
+    
+What is Proxy Server?
+
+    A proxy server is a dedicated computer or a software system running on a computer that acts as an immediately between an endpoint device, such as computer, and another server from which a user or client is requesting a service. The proxy server may exist in the same machine as a firewall server or it may be on a seperate server, which forwards requests through the firewall.
+    
+    An advantage of a proxy server is that its cache can serve all users. If one or more internet sites are frequently requested, these are likely to be in the proxy's cache, which will improve user response time.
+    A proxy can also log its interactions, which can be helpful for trubleshooting.
+    
+How Does Proxy Servers Work?
+
+    When a proxy server receives a request for an Internet resource (such as a Web Page), it looks in its local cache of previously pages. If it finds the page, it returns it to the user without needing to forward the request to the Internet. If the page is not in cache, the proxy server, acting as a client on behalf of the user, uses one of its own IP address to request the page from the server out on the Internet. When the page is returned, the proxy server relates it to original request and forwards it on to the user.
+    
+    Proxy servers are used for both legal and illegal purposes. In the enterprise, a proxy server is used to facilitate security, administrative control or caching services, among other purposes. In a personal computing context, proxy servers are used to enable user privacy and anonymous surfing. Proxy servers can also be used for the opposite purpose: To monitor traffic and undeermine user privacy.
+    
+    
+    
+    
+    
+   
+    
